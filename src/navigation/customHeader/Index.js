@@ -12,7 +12,10 @@ const CustomHeader = ({ title, description }) => {
       <View style={styles.headerContainer}>
         <TouchableOpacity
           style={styles.backButtonContainer}
-          onPress={() => navigation.goBack()}
+          onPress={() => {
+            console.warn("pressed")
+            navigation.goBack()
+          }}
         >
           <Icon name="arrow-left" style={styles.backButtonIcon} />
         </TouchableOpacity>

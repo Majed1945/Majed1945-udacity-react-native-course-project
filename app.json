@@ -6,7 +6,8 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.udacity-react-native-course-project"
     },
     "android": {},
     "web": {},

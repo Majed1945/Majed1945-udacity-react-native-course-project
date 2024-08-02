@@ -32,6 +32,7 @@ const headerStyles = () => {
       width: 40,
       height: 40,
       borderRadius: 20,
+      zIndex:1000,
       backgroundColor: theme.primary.main,
       justifyContent: "center",
       alignItems: "center",
